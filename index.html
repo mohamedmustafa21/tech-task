@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <title>Blog Page Simple</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navbar -->
+        <div class="nav">
+            <div class="nav-container">
+                <div class="right">
+                    <a href="index.html"><img src="Assets/LookscoutBlack.svg" class="nav-logo" alt=""></a>
+                    <ul class="nav-items">
+                        <li><a href="blog.html">Home</a></li>
+                        <li><a href="about.html">Our Products</a></li>
+                        <li><a href="posts.html">Resources</a></li>
+                        <li><a href="servises.html">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-Btn">
+                    <button class="signup-Btn">Sign Up</button>
+                    <button class="login-Btn">Log In</button>
+                </div>
+                <div class="icon">
+                    <button onclick="sideNavOpen()"><img src="./Assets/Icon.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar -->
+
+
+        <!-- Responsive Side Bar -->
+
+            <div class="sideNav" id="sidenav">
+                <a href="#" onclick="closeNavOpen()" class="closBtn">&#10006;</a>
+                <ul class="nav-items">
+                    
+                    <li><a href="blog.html">Home</a></li>
+                    <li><a href="about.html">Our Products</a></li>
+                    <li><a href="posts.html">Resources</a></li>
+                    <li><a href="servises.html">Contacts</a></li>
+                </ul>
+                <div class="nav-Btn">
+                    <button class="signup-Btn">Sign Up</button>
+                    <button class="login-Btn">Log In</button>
+                </div>
+            </div>
+
+
+
+        <!-- End -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Hero Section -->
+        <div class="hero-Section">
+            <div class="hero-content">
+                <p>1% OF THE INDUSTRY</p>
+                <h1>Hype got you here. <span class="just-on-mobile-tablet">Of It. </span> <span
+                        class="hide-mobile-tablet">Stay for the support.</span> <span class="just-on-mobile-tablet">
+                        Stay for best ever help. </span> </h1>
+            </div>
+
+        </div>
+        <!-- End Hero Sectio -->
+
+        <!-- Blog Post Section -->
+        <div class="blog">
+            <div class="blog-container">
+                <div class="left-side">
+                    <img src="Assets/Bolg/Tooltip.png" alt="">
+                    <h4 class="mainCard-Title">Reach your users with new tools. <span class="mobile-hiddin">Reach your
+                            users with new tools. Reach
+                            your users with new</span>
+                        tools.</h4>
+                    <p class="mainCard-Desc">Efficiently unleash cross-media information without cross-media value.
+                        Quickly
+                        maximize.Efficiently unleash cross-media information without cross-media value. Quickly
+                        maximize.Efficiently unleash cross-media.</p>
+                    <p class="card-date">25 Apr 2022 </p>
+                </div>
+
+                <div class="right-side">
+                    <div class="card">
+                        <img src="Assets/Bolg/Container.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title mobile-hiddin">Reach your users with new tools</h5>
+                            <h5 class="card-title">Faster ways to reach your customers</h5>
+
+                            <p class="card-text">Efficiently unleash cross-media information without cross-media value.
+                                Quickly maximize. <span class="pc-hiddin">timely deliverables for real-time.
+                                    Dramatically clicks-and-mortar solutions without functional solutions you
+                                    need.</span>
+                            </p>
+                            <p class="card-date">25 Apr 2022 <span class="pc-hiddin">Blog theme</span></p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Bolg/Container (1).png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Faster ways to reach your customer</h5>
+                            <p class="card-text">Completely synergize resource taxing relationships via premier niche
+                                markets.<span class="pc-hiddin">Professionally cultivate one-to-one customer service
+                                    with robust ideas. User generated content will have multiple touchpoints for
+                                    offshoring.</span> </p>
+                            <p class="card-date">25 Apr 2022 <span>Blog theme</span></p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Bolg/Container (2).png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Revolutionizing the Design Industry</h5>
+                            <p class="card-text">Efficiently unleash cross-media information without cross-media value.
+                                Quickly maximize <span class="pc-hiddin">timely deliverables for schemas users.
+                                    Podcasting operational change inside of workflows inside a framework seamless
+                                    management inside of workflows.</span> </p>
+                            <p class="card-date">25 Apr 2022 <span>Blog theme</span></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Blog Section -->
+
+
+        <!-- Middle Section -->
+
+        <div class="middle">
+            <div class="contact-section ">
+                <h1 class="contact-title">Welcome to your new digital reality that will <br class="mobile-hiddin"> rock
+                    your world.</h1>
+                <p class="contact-desc">Let us help you take you from zero to serious business and beyond.
+                    Our no-strings attached free trial lets you test our product today.
+                </p>
+                <div class="input-container">
+                    <input type="text" class="input-field" placeholder="Enter email...">
+                    <button class="button-submit">Submit</button>
+                </div>
+                <p class="mobile-hiddin">Subscribe to our newsletter</p>
+            </div>
+        </div>
+        <!-- End Middle -->
+
+
+
+        <!-- Blog Post Section Just On PC -->
+        <!-- Latest Title -->
+        <div class="latest-plog-title pc-hiddin">
+            <h1 class="latest-Title mb-5">Latest Blog Posts</h1>
+
+        </div>
+
+        <div class="blog blog-pc">
+
+            <div class="blog-container">
+                <div class="left-side ">
+                    <img src="Assets/Bolg/Tooltip.png" alt="">
+                    <h4 class="mainCard-Title">Reach your users with new tools. Reach your users with new tools. Reach
+                        your users with new
+                        tools.</h4>
+                    <p class="mainCard-Desc">Efficiently unleash cross-media information without cross-media value.
+                        Quickly
+                        maximize.Efficiently unleash cross-media information without cross-media value. Quickly
+                        maximize.Efficiently unleash cross-media.</p>
+                    <p class="card-date">25 Apr 2022 </p>
+                </div>
+                <div class="right-side">
+                    <div class="card">
+                        <img src="Assets/Bolg/Container.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Reach your users with new tools</h5>
+                            <p class="card-text">Efficiently unleash cross-media information without cross-media value.
+                                Quickly maximize.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Bolg/Container (1).png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Faster ways to reach your customer</h5>
+                            <p class="card-text">Completely synergize resource taxing relationships via premier niche
+                                markets.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Bolg/Container (2).png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Revolutionizing the Design Industry</h5>
+                            <p class="card-text">Efficiently unleash cross-media information without cross-media value.
+                                Quickly maximize.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Blog Section -->
+
+
+        <div class="posts ">
+            <div class="post-items">
+                <img class="h-50" src="Assets/Bolg/Rectangle 1.png" alt="">
+                <p class="date-style">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+
+            </div>
+            <div class="post-items">
+                <img class="h-50" src="Assets/Bolg/Rectangle 1 (1).png" alt="">
+                <p class="date-style">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+            </div>
+            <div class="post-items">
+                <img class="h-50" src="Assets/Bolg/Rectangle 1 (2).png" alt="">
+                <p class="date-style ">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+            </div>
+
+            <!--  -->
+
+
+            <div class="post-items">
+                <img class="h-100" src="Assets/Bolg/Rectangle 1 (3).png" alt="">
+                <p class="date-style">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+            </div>
+            <div class="post-items">
+                <img class="h-100" src="Assets/Bolg/Rectangle 1 (1).png" alt="">
+                <p class="date-style">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+            </div>
+            <div class="post-items">
+                <img class="h-100" src="Assets/Bolg/Rectangle 1 (1).png" alt="">
+                <p class="date-style">25 Apr 2022 </p>
+                <h4 class="posts-title">Organize your digital assets with a new methodology and there.</h4>
+                <div class="learn-more">
+                    <a href="" class="lern-more-Btn">Learn more </a>
+                    <img class="arrow" src="Assets/arrow/Icon.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="welcome-section mt-5">
+            <div class="welcome-container">
+                <p class="welcome-text">1% OF THE INDUSTRY</p>
+                <h1 class="welcome-title">Welcome to your new digital reality that
+                    which will rock your world truly at all.</h1>
+                <div class="welcome-btn">
+                    <button class="welcome-btn-signUp">Sign Up</button>
+                    <button class="welcome-btn-login just-on-mobile-tablet">Log in</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="logo">
+                    <img src="Assets/Lookscout.svg" alt="">
+                    <p>Generate outside the box thinking with the possibility to targtet the low.</p>
+                    <div class="input footer-submit">
+                        <input type="text" class="input-field" placeholder="Enter email...">
+                        <button class="button-submit">Submit</button>
+                    </div>
+
+
+                </div>
+                <div class="footer-items-container">
+                    <div class="why-Us">
+                        <h4 class="footer-title ">Why Choose Us?</h4>
+                        <ul>
+                            <li class="mb-5"><a class="footer-items" href="">Scale</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Solutions</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Our Competition</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Channels</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Events</a></li>
+                            <li><a class="footer-items" href="">Watch the Demo</a></li>
+                        </ul>
+                    </div>
+                    <div class="company">
+                        <h4 class="footer-title ">Company</h4>
+                        <ul>
+                            <li class="mb-5"><a class="footer-items" href="">Leadership</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Careers</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Investor Relations</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Media Kit</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="resources">
+                        <h4 class="footer-title ">Resources</h4>
+                        <ul>
+                            <li class="mb-5"><a class="footer-items" href="">Community</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Events</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Help Center</a></li>
+                            <li class="mb-5"><a class="footer-items" href="">Partners</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyRight">
+                <p>© 2023 Lookscout. All Rights Reserved.</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
